@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r}
-df <- read_csv(here::here("dir_demo/data/clean_flights.csv"))
+df <- readr::read_csv(here::here("dir_demo/data/clean_flights.csv"))
 ```
 
 ```{r}
