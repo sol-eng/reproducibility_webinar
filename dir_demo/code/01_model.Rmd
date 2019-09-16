@@ -13,6 +13,9 @@ df <- readr::read_csv(here::here("dir_demo/data/clean_flights.csv"))
 mod <- glm(delayed ~ month + poly(sched_dep_time, 3) + poly(distance, 3), 
            family = "binomial", data = df)
 summary(mod)
+```
+
+```{r}
 saveRDS(mod, here::here("dir_demo/models/log_reg.rds"))
 ```
 
