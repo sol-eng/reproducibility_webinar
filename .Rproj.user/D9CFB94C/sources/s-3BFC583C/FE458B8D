@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568662481908.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2881760975",
+    "id" : "FE458B8D",
+    "lastKnownWriteTime" : 1568663160,
+    "last_content_update" : 1568663544948,
+    "path" : "~/rstudio/2019-09-17_john_deere_webinar/dir_demo/code/01_model.Rmd",
+    "project_path" : "dir_demo/code/01_model.Rmd",
+    "properties" : {
+        "cursorPosition" : "13,25",
+        "marks" : "<:3,7\n>:3,7",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

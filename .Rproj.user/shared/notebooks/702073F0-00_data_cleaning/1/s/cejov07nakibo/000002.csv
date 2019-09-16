@@ -1,0 +1,5 @@
+"0","write_csv(df, here::here(""data/clean_flights.csv""))
+"
+"2","cannot open file '/Users/alexkgold/rstudio/2019-09-17_john_deere_webinar/data/clean_flights.csv': No such file or directory"
+"2","Error in open.connection(path, ""wb"") : cannot open the connection
+"

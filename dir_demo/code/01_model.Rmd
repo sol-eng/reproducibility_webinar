@@ -1,0 +1,20 @@
+---
+title: "Model Building"
+author: "Alex Gold"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+df <- read_csv(here::here("dir_demo/data/clean_flights.csv"))
+```
+
+```{r}
+mod <- glm(delayed ~ month + poly(sched_dep_time, 3) + poly(distance, 3), 
+           family = "binomial", data = df)
+summary(mod)
+saveRDS(mod, here::here("dir_demo/models/log_reg.rds"))
+```
+
+
+

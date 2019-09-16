@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568663151534.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "79C81622",
+    "lastKnownWriteTime" : 1568663159,
+    "last_content_update" : 1568663159203,
+    "path" : "~/rstudio/2019-09-17_john_deere_webinar/dir_demo/code/00_data_cleaning.Rmd",
+    "project_path" : "dir_demo/code/00_data_cleaning.Rmd",
+    "properties" : {
+        "cursorPosition" : "3,7",
+        "marks" : "<:3,6\n>:3,6",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
