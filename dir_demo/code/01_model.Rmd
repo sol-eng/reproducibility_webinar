@@ -10,7 +10,7 @@ df <- readr::read_csv(here::here("dir_demo/data/clean_flights.csv"))
 ```
 
 ```{r}
-mod <- glm(delayed ~ month + poly(sched_dep_time, 3) + poly(distance, 3), 
+mod <- glm(delayed ~ month + poly(sched_dep_time, 4) + poly(distance, 4), 
            family = "binomial", data = df)
 summary(mod)
 ```
