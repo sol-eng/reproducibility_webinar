@@ -1,1 +1,3 @@
-This repo contains the slides and a sample directory setup for a webinar for John Deere on September 17, 2019.
+This is the repository for the reproducibility webinar. 
+
+The slides for the webinar can be found [here](https://docs.google.com/presentation/d/1vMWEkbDzgxWcVorFciCwuEEnYd-SD4aGvfBxqnF-5Jk/edit?usp=sharing).
