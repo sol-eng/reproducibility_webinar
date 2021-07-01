@@ -20,7 +20,7 @@ Get analysis dataset
 df <- flights %>%
   select(year, month, sched_dep_time, arr_delay,
   carrier, origin, dest, distance) %>%
-  mutate(delayed = arr_delay > 0)
+  mutate(delay = arr_delay > 0)
 ```
 
 Get feel for vars
@@ -36,7 +36,7 @@ map(df, function(x) sum(is.na(x)) / length(x))
 ```
 
 ```{r}
-df <- filter(df, !is.na(delayed))
+df <- filter(df, !is.na(delay))
 ```
 
 ```{r}
